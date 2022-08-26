@@ -1,0 +1,156 @@
+ body{
+    box-sizing: border-box;
+     background-color: #fff;
+} 
+.container-fluid{
+   
+   color: white; 
+   background-color: #78962b;
+width: 100%;
+height: 80px;
+}
+#no{
+   
+   margin-bottom:40px ; 
+   font-size: 13px;
+   margin-left: 130px;
+}
+.navbar-nav{
+    margin-left: 240px;
+}
+
+#cs{
+   background-color:#ddd;
+position: absolute;
+color: black;
+   margin-left: 156px;
+   height: 36px;
+   width: 50px;
+   margin-top: 1px;
+   
+   
+}
+.d-flex{
+  position: absolute; 
+  margin-left:1000px ;
+}
+#stop{
+   
+   
+   
+   
+   
+   
+   
+   width: 100%;
+   height: 180px;
+   content: none;
+   background-color:#fff;
+}
+   .div a{
+   width: 80px;
+   height: 60px;
+}
+.three{
+
+   width: 30px;
+   
+
+   border-radius: 50%;
+   background-color:white;
+   border-width: 40px;
+   height: 20px;
+   border-style: solid;
+   color:#78962b;
+   border-width: 1px;
+   padding: 5px;
+   height:32px;
+   
+
+}
+#stop2{
+   margin-left: 150px;
+   padding-top: 30px;
+   
+   
+}
+#two{
+   font-family: Barmbold !important;
+   font-size: 30px;
+   color: #545454 !important;
+font-weight: bolder;
+   
+}
+#four{
+position:absolute;
+margin-top: -100px;
+width: 500px;
+margin-left: 450px;
+}
+#five{
+   white-space: nowrap;
+   margin-top: -100px;
+   margin-left: 1050px;
+   border: #78962b;
+   border-width: 4px;
+   border-style: solid;
+   border-radius: 25px;
+   font-weight: bolder;
+   font-size: 20px;color: #78962b;
+}
+#five:hover{
+   background-color: #78962b;
+   border: rgb(202,248,128);
+   color:white;
+   border-width: 4px;
+   border-style: solid;
+   border-radius: 25px;
+}
+#six{
+   width: 100%;
+   height: 60px;
+   background-color:#78962b;
+}
+#AA{
+   background-color: #78962b;
+  margin-left: 200px;
+  margin-top: 10px;
+  border-style: none;
+}
+#BB{
+   background-color:white;
+padding-top: 30px;
+
+}
+#AA:hover{
+   color: black;
+}
+#CC{
+   background-color: #78962b;
+  margin-top: 10px;
+  border-style: none;
+}
+#DD{
+   background-color:white;
+padding-top: 30px;
+
+}
+#CC:hover{
+   color: black;
+}
+#EE
+{
+   background-color:#fff;
+   width: 100%;
+   height:400px;
+}
+#FF{
+height: 400px;
+width: 550px;
+}
+#GG{
+   width: 550px;
+   height: 400}
+
+
+
