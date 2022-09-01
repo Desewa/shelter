@@ -251,7 +251,7 @@ background-image:url(../img/Samba-247x300.jpg);
 }
 #ds{
 background-color: #f1f1f1;
-   height: 50vh;
+   height: 45vh;
    width: 100%;
    margin-top: 30px;
    padding-top: 20px;
@@ -269,6 +269,46 @@ background-color: #f1f1f1;
 }
 #as{
    margin-left: 30px;  
+}
+#af{
+   font-weight: bold;
+}
+.info{
+   background-color: #78962b;
+   width: 150px;
+   height: 40px;
+   color: white;
+   margin-left: 25px;
+   border-style: none;
+}
+#snap{
+   display: flex;
+
+}
+#fun{
+   width: 250px;
+   height: 250px;
+}
+#nap{
+   margin-left: 100px;
+   text-align: center;
+}
+#DA{
+   font-weight: bold;
+   color: #545454;
+}
+
+#pet{
+   margin-left: 20px;
+   text-align: center;
+}
+#free{
+   width: 250px;
+   height: 250px; 
+}
+#get{
+   font-weight: bold;
+   color: #545454;
 }
 
 
