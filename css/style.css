@@ -334,13 +334,16 @@ border-bottom:1px solid#545454;
    }
    #left{
       float: right;
-      margin-left :900px ;
+      margin-left :700px ; 
    }
    #ba{
       display: flex;
    }
    #mi{
-      color: white;
+      color:#545454;
+      font-size: 15px;
+      margin-left: 100px;
+      
    }
 
 
