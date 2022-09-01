@@ -231,7 +231,7 @@ width: 550px;
 #style{
    width: 200px;
    height: 200px;
-   margin-left: 100px;
+   margin-left: 110px;
 }
 #style:hover{
 background-image:url(../img/Samba-247x300.jpg);
@@ -242,6 +242,38 @@ background-image:url(../img/Samba-247x300.jpg);
    height: 200px;
    margin-left: 20px;
 }
+#belt{
+   height: 10vh;
+   background-color:black;
+}
+#page{
+   font-weight: bold;color: white;
+}
+#ds{
+background-color: #f1f1f1;
+   height: 50vh;
+   width: 100%;
+   margin-top: 30px;
+   padding-top: 20px;
+
+} 
+#sd{
+ font-size: 30px;  
+  font-weight: bold;
+  border-left:7px solid#78962b ;
+  padding: 5px; 
+  margin-left: 30px;
+}
+#ad{
+   margin-left: 30px;
+}
+#as{
+   margin-left: 30px;  
+}
+
+
+
+
 
 
 
