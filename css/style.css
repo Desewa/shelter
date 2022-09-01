@@ -283,6 +283,7 @@ background-color: #f1f1f1;
 }
 #snap{
    display: flex;
+   margin-top: 40px;
 
 }
 #fun{
