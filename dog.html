@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="https://use.fontawesome.com/0cb1f2c7fd.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light" id="go">
+    <div class="container-fluid">
+      <p id="no">
+        Welcome to Cheltenham Animal Shelter
+      </p>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16" id="soo">
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+            </svg>Subscribe</a>
+          <a class="nav-link" href="dog.html"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16"
+              height="16">
+              <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M226.5 92.85C240.8 135.7 226.2 179.1 193.9 189.7C161.6 200.2 123.8 174 109.5 131.1C95.19 88.26 109.8 44.92 142.1 34.34C174.4 23.77 212.2 49.96 226.5 92.85zM100.4 198.6C119.2 231 114.7 268.7 90.16 282.7C65.65 296.8 30.49 281.9 11.63 249.4C-7.237 216.1-2.664 179.3 21.84 165.3C46.35 151.2 81.51 166.1 100.4 198.6zM69.21 401.2C121.6 259.9 214.7 224 256 224C297.3 224 390.4 259.9 442.8 401.2C446.4 410.9 448 421.3 448 431.7V433.3C448 459.1 427.1 480 401.3 480C389.8 480 378.4 478.6 367.3 475.8L279.3 453.8C263.1 450 248 450 232.7 453.8L144.7 475.8C133.6 478.6 122.2 480 110.7 480C84.93 480 64 459.1 64 433.3V431.7C64 421.3 65.6 410.9 69.21 401.2H69.21zM421.8 282.7C397.3 268.7 392.8 231 411.6 198.6C430.5 166.1 465.7 151.2 490.2 165.3C514.7 179.3 519.2 216.1 500.4 249.4C481.5 281.9 446.3 296.8 421.8 282.7zM310.1 189.7C277.8 179.1 263.2 135.7 277.5 92.85C291.8 49.96 329.6 23.77 361.9 34.34C394.2 44.92 408.8 88.26 394.5 131.1C380.2 174 342.4 200.2 310.1 189.7z" />
+            </svg> Dogs</a>
+          <a class="nav-link" href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16"
+              height="16">
+              <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M226.5 92.85C240.8 135.7 226.2 179.1 193.9 189.7C161.6 200.2 123.8 174 109.5 131.1C95.19 88.26 109.8 44.92 142.1 34.34C174.4 23.77 212.2 49.96 226.5 92.85zM100.4 198.6C119.2 231 114.7 268.7 90.16 282.7C65.65 296.8 30.49 281.9 11.63 249.4C-7.237 216.1-2.664 179.3 21.84 165.3C46.35 151.2 81.51 166.1 100.4 198.6zM69.21 401.2C121.6 259.9 214.7 224 256 224C297.3 224 390.4 259.9 442.8 401.2C446.4 410.9 448 421.3 448 431.7V433.3C448 459.1 427.1 480 401.3 480C389.8 480 378.4 478.6 367.3 475.8L279.3 453.8C263.1 450 248 450 232.7 453.8L144.7 475.8C133.6 478.6 122.2 480 110.7 480C84.93 480 64 459.1 64 433.3V431.7C64 421.3 65.6 410.9 69.21 401.2H69.21zM421.8 282.7C397.3 268.7 392.8 231 411.6 198.6C430.5 166.1 465.7 151.2 490.2 165.3C514.7 179.3 519.2 216.1 500.4 249.4C481.5 281.9 446.3 296.8 421.8 282.7zM310.1 189.7C277.8 179.1 263.2 135.7 277.5 92.85C291.8 49.96 329.6 23.77 361.9 34.34C394.2 44.92 408.8 88.26 394.5 131.1C380.2 174 342.4 200.2 310.1 189.7z" />
+            </svg>Cat</a>
+          <a class="nav-link" href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+              <path fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+            </svg>Small pets</a>
+
+
+
+        </div>
+      </div>
+      <form class="d-flex" role="search">
+        <input id="ce" class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+        <svg id="cs" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+          viewBox="0 0 16 16">
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+
+
+        </svg>
+      </form>
+    </div></nav>
+    <div id="stop">
+      <h1 id="stop2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="three" width="16" height="16" fill="currentColor"
+          class="bi bi-facebook" viewBox="0 0 16 16">
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="three" width="16" height="16" fill="currentColor"
+          class="bi bi-twitter" viewBox="0 0 16 16">
+          <path
+            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="three" width="16" height="16" fill="currentColor"
+          class="bi bi-instagram" viewBox="0 0 16 16">
+          <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="three" width="16" height="16" fill="currentColor"
+          class="bi bi-envelope" viewBox="0 0 16 16">
+          <path
+            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+        </svg>
+        <p id="two">Be Social</p>
+      </h1>
+      <img src="./img/caslogo.png" alt="" id="four">
+      <button type="button" class="btn btn-light" id="five">DONATE NOW</button>
+    </div>
+    <div id="six">
+      <button class="btn btn-secondary dropdown-toggle" id="AA" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        ABOUT US
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" id="BB">
+        <li><a class=" dropdown-item text-dark" href="#">HOMEPAGE</a></li>
+        <li><a class="dropdown-item text-dark" href="#">SHELTER TOURS</a></li>
+        <li><a class="dropdown-item text-dark" href="#">ABOUT THE SHELTER</a></li>
+        <li><a class="dropdown-item text-dark" href="#">HISTORY OF THE SHELTER</a></li>
+        <li><a class="dropdown-item text-dark" href="#">CONTACT US</a></li>
+        <li><a class="dropdown-item text-dark" href="#">SHELTER NEWS</a></li>
+        <li><a class="dropdown-item text-dark " href="#">SHELTER LIFE</a></li>
+        <li><a class="dropdown-item text-dark" href="#">JOBS & VOLUNTEERS</a></li>
+        <li><a class="dropdown-item  text-dark" href="#"> MEET THE TEAM</a></li>
+        <li><a class="dropdown-item text-dark" href="#">EMPLOYEE OF THE MONTH</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> COMPLAINTS PROCEDURE</a></li>
+  
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" id="CC" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        ADOPTION & CARE
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" id="DD">
+        <li><a class=" dropdown-item text-dark" href="#">ANIMALS IN NEED</a></li>
+        <li><a class="dropdown-item text-dark" href="#">ANIMALS FOR ADOPTION</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> ADOPTION POLICY & PROCESS</a></li>
+        <li><a class="dropdown-item text-dark" href="#">DOG ADOPTION FAQ</a></li>
+        <li><a class="dropdown-item text-dark" href="#">SURRENDER YOUR PET</a></li>
+        <li><a class="dropdown-item text-dark" href="#"></a>PET FOSTERING</li>
+        <li><a class="dropdown-item text-dark " href="#"></a>STRAY DOGS</li>
+        <li><a class="dropdown-item text-dark" href="#"></a>STRAY CATS</li>
+        <li><a class="dropdown-item  text-dark" href="#">SUCCESS STORIES</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> ANIMAL HEALTHCARE ADVICE</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> DOGGY BOREDOM BUSTERS</a></li>
+      </ul>
+  
+      <button class="btn btn-secondary dropdown-toggle" id="CC" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        HOW YOU CAN WORK
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" id="DD">
+        <li><a class=" dropdown-item text-dark" href="#"> DONATE</a></li>
+        <li><a class="dropdown-item text-dark" href="#">MAKE A DONATION</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> DONATE ITEMS FOR THE ANIMALS</a></li>
+        <li><a class="dropdown-item text-dark" href="#">SPONSOR A PET PEN</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> WEEKLY LOTTERY</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> JOIN OUR “SUPPORTING WALL”</a></li>
+        <li><a class="dropdown-item text-dark " href="#"> AMAZON WISHLIST</a></li>
+        <li><a class="dropdown-item text-dark" href="#"></a>STRAY CATS</li>
+        <li><a class="dropdown-item  text-dark" href="#">SUCCESS STORIES</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> GIVE AS YOU LIVE </a></li>
+        <li><a class="dropdown-item text-dark" href="#"> DOGGY BOREDOM BUSTERS</a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" id="CC" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        SERVICES & FACILITIES
+  
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" id="DD">
+        <li><a class=" dropdown-item text-dark" href="#"> SURRENDER YOUR PET</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> DOG & CAT BOARDING</a></li>
+        <li><a class="dropdown-item text-dark" href="#">DOG DAY CRECHE</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> DOG GROOMING</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> CASVETS – ON-SITE VET</a></li>
+        <li><a class="dropdown-item text-dark" href="#">CHARITY SHOP </a></li>
+        <li><a class="dropdown-item text-dark " href="#"> PET SHOP</a></li>
+        <li><a class="dropdown-item text-dark" href="#">DOG TRAINING CLASSES </a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" id="CC" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        EDUCATION
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" id="DD">
+        <li><a class=" dropdown-item text-dark" href="#"> ANIMAL DAYS</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> ART COMPETITION WINNER</a></li>
+        <li><a class="dropdown-item text-dark" href="#">EDUCATIONAL TALKS </a></li>
+        <li><a class="dropdown-item text-dark" href="#"> HALT PROJECT</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> WORK EXPERIENCE</a></li>
+        <li><a class="dropdown-item text-dark" href="#"> EDUCATION NEWS</a></li>
+        <li><a class="dropdown-item text-dark " href="#"> CHILDREN’S EDUCATIONAL PACKS</a></li>
+  
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" id="CC" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        CAS CARE CHALLENGE
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" id="DD">
+        <li><a class=" dropdown-item text-dark" href="#"> ABOUT THE CHALLENGE </a></li>
+        <li><a class="dropdown-item text-dark" href="#">REGISTER FOR THE CHALLENGE</a></li>
+        <li><a class="dropdown-item text-dark" href="#">CAS CARE CHALLENGE IDEAS </a></li>
+        <li><a class="dropdown-item text-dark" href="#"> HOW TO GUIDE</a></li>
+        <li><a class="dropdown-item text-dark" href="#">ORDER A T-SHIRT</a></li>
+  
+      </ul>
+    </div>
+    
