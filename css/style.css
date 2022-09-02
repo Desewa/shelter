@@ -347,8 +347,23 @@ border-bottom:1px solid#545454;
    }
    #but{
       width: 100%;
-      height: 70vh; background-color:aqua;
+      height: 70vh; background-color:white;
    }
+   #cs{
+      color: #545454;
+      font-weight: bold;
+   
+   }
+#ss{
+   margin-top: 50px;
+   color: #1e1e1e;
+   font-weight: bold;
+   border-bottom:1px solid#545454;
+   margin-right: 40px;
+}
+#vu{
+   margin-right: 100px
+}
 
 
 
