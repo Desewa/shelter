@@ -1,375 +1,444 @@
- body{
+ body {
     box-sizing: border-box;
-     background-color:aqua;
-} 
- .container-fluid{
-   
-   color: white; 
-   background-color: #78962b;
-width: 100%;
-height: 80px;
-} 
-#no{
-   
-   margin-bottom:40px ; 
-   font-size: 13px;
-   margin-left: 130px;
-}
-.navbar-nav{
+    background-color: aqua;
+ }
+
+ .container-fluid {
+
+    color: white;
+    background-color: #78962b;
+    width: 100%;
+    height: 80px;
+ }
+
+ #no {
+
+    margin-bottom: 40px;
+    font-size: 13px;
+    margin-left: 130px;
+ }
+
+ .navbar-nav {
     margin-left: 240px;
-}
+ }
 
-#cs{
-   background-color:#ddd;
-position: absolute;
-color: black;
-   margin-left: 156px;
-   height: 36px;
-   width: 50px;
-   margin-top: 1px;
-   
-   
-}
-.d-flex{
-  position: absolute; 
-  margin-left:1000px ;
-}
-#stop{
-   width: 100%;
-   height: 180px;
-   content: none;
-   background-color:#fff;
-}
-   .div a{
-   width: 80px;
-   height: 60px;
-}
-.three{
+ #cs {
+    background-color: #ddd;
+    position: absolute;
+    color: black;
+    margin-left: 156px;
+    height: 36px;
+    width: 50px;
+    margin-top: 1px;
 
-   width: 30px;
-   
 
-   border-radius: 50%;
-   background-color:white;
-   border-width: 40px;
-   height: 20px;
-   border-style: solid;
-   color:#78962b;
-   border-width: 1px;
-   padding: 5px;
-   height:32px;
-   
+ }
 
-}
-#stop2{
-   margin-left: 150px;
-   padding-top: 30px;
-   
-   
-}
-#two{
-   font-family: Barmbold !important;
-   font-size: 30px;
-   color: #545454 !important;
-font-weight: bolder;
-   
-}
-#four{
-position:absolute;
-margin-top: -100px;
-width: 500px;
-margin-left: 450px;
-}
-#five{
-   white-space: nowrap;
-   margin-top: -100px;
-   margin-left: 1050px;
-   border: #78962b;
-   border-width: 4px;
-   border-style: solid;
-   border-radius: 25px;
-   font-weight: bolder;
-   font-size: 20px;color: #78962b;
-}
-#five:hover{
-   background-color: #78962b;
-   border: rgb(202,248,128);
-   color:white;
-   border-width: 4px;
-   border-style: solid;
-   border-radius: 25px;
-}
-#six{
-   width: 100%;
-   height: 60px;
-   background-color:#78962b;
-}
-#AA{
-   background-color: #78962b;
-  margin-left: 200px;
-  margin-top: 10px;
-  border-style: none;
-}
-#BB{
-   background-color:white;
-padding-top: 30px;
+ .d-flex {
+    position: absolute;
+    margin-left: 1000px;
+ }
 
-}
-#AA:hover{
-   color: black;
-}
-#CC{
-   background-color: #78962b;
-  margin-top: 10px;
-  border-style: none;
-}
-#DD{
-   background-color:white;
-padding-top: 30px;
+ #stop {
+    width: 100%;
+    height: 180px;
+    content: none;
+    background-color: #fff;
+ }
 
-}
-#CC:hover{
-   color: black;
-}
-#EE
-{
-   background-color:#fff;
-   width: 100%;
-   height:400px;
-}
-#FF{
-height: 400px;
-width: 550px;
-}
-#GG{
-   width: 550px;
-   height: 400;
-  position: absolute;
-   
-}
+ .div a {
+    width: 80px;
+    height: 60px;
+ }
 
-#HH{
-   background-color: #dddddd;
-   width:100%;
-   height: 400px;
-   } 
-  #II{
-   vertical-align: top;
-   font-size: 15px;
-  }
-  #jj{
-   position: relative;
-   font-size: 30px;
-   color: white;
-   text-align: center;
-   font-weight: bold;
-   margin-top: 40px}
-   #kk{
-      font-size: 40px;
-      font-weight: bold;
-      background-color:rgba(0,0,0,0.5); 
-      width: 200px;
-      height: 30px;
-      color: white;
-      padding-left: 30px;
-      padding-right: 30px;
-   }
-   .ron{
-      width: 50px;
-      height: 10px;
-      border-style: solid;
-      border-width: 4px;
-      margin-left: 650px;
-      display: inline-block;
-      
-   }
-   #HH{
-      /* display: flex; */
-   }
+ .three {
 
-   .animal {
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-   }
+    width: 30px;
 
-   .animal h3 {
-      margin: 20px;
-      border-top: 4px solid white;
-      cursor: pointer;
-   }
 
-   #seven {
-      background-image: url(../img/West-Highland-White-Terrier-laying-down-in-the-grass.jpg);
-      height: 60vh;
-   }
-   .SELL{
-      background-color: #78962b;
-      color: white;
-      height: 35px;
-      border-style: none;
-      padding-left: 20px;
-      padding-right: 20px;
-      display: block;
-   }
+    border-radius: 50%;
+    background-color: white;
+    border-width: 40px;
+    height: 20px;
+    border-style: solid;
+    color: #78962b;
+    border-width: 1px;
+    padding: 5px;
+    height: 32px;
 
-   .buttons {
-      display: flex;
-      justify-content: space-between;
-   }
-   #cook{
-      margin-left: 120px;
-   }
-   /* #sok{
+
+ }
+
+ #stop2 {
+    margin-left: 150px;
+    padding-top: 30px;
+
+
+ }
+
+ #two {
+    font-family: Barmbold !important;
+    font-size: 30px;
+    color: #545454 !important;
+    font-weight: bolder;
+
+ }
+
+ #four {
+    position: absolute;
+    margin-top: -100px;
+    width: 500px;
+    margin-left: 450px;
+ }
+
+ #five {
+    white-space: nowrap;
+    margin-top: -100px;
+    margin-left: 1050px;
+    border: #78962b;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #78962b;
+ }
+
+ #five:hover {
+    background-color: #78962b;
+    border: rgb(202, 248, 128);
+    color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 25px;
+ }
+
+ #six {
+    width: 100%;
+    height: 60px;
+    background-color: #78962b;
+ }
+
+ #AA {
+    background-color: #78962b;
+    margin-left: 200px;
+    margin-top: 10px;
+    border-style: none;
+ }
+
+ #BB {
+    background-color: white;
+    padding-top: 30px;
+
+ }
+
+ #AA:hover {
+    color: black;
+ }
+
+ #CC {
+    background-color: #78962b;
+    margin-top: 10px;
+    border-style: none;
+ }
+
+ #DD {
+    background-color: white;
+    padding-top: 30px;
+
+ }
+
+ #CC:hover {
+    color: black;
+ }
+
+ #EE {
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+ }
+
+ #FF {
+    height: 400px;
+    width: 550px;
+ }
+
+ #GG {
+    width: 550px;
+    height: 400;
+    position: absolute;
+
+ }
+
+ #HH {
+    background-color: #dddddd;
+    width: 100%;
+    height: 400px;
+ }
+
+ #II {
+    vertical-align: top;
+    font-size: 15px;
+ }
+
+ #jj {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px
+ }
+
+ #kk {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ .ron {
+    width: 50px;
+    height: 10px;
+    border-style: solid;
+    border-width: 4px;
+    margin-left: 650px;
+    display: inline-block;
+
+ }
+
+ #HH {
+    /* display: flex; */
+ }
+
+ .animal {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+ }
+
+ .animal h3 {
+    margin: 20px;
+    border-top: 4px solid white;
+    cursor: pointer;
+ }
+
+ #seven {
+    background-image: url(../img/West-Highland-White-Terrier-laying-down-in-the-grass.jpg);
+    height: 60vh;
+ }
+
+ .SELL {
+    background-color: #78962b;
+    color: white;
+    height: 35px;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+ }
+
+ .buttons {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #cook {
+    margin-left: 120px;
+ }
+
+ /* #sok{
       margin-right: 120px;
    } */
-   #book{
-      margin-right:120px;
-   }
-#style{
-   width: 200px;
-   height: 200px;
-   margin-left: 110px;
-}
-#style:hover{
-background-image:url(../img/Samba-247x300.jpg);
-}
+ #book {
+    margin-right: 120px;
+ }
 
-#type{
-   width: 200px;
-   height: 200px;
-   margin-left: 20px;
-}
-#belt{
-   height: 10vh;
-   background-color:black;
-}
-#page{
-   font-weight: bold;color: white;
-}
-#ds{
-background-color: #f1f1f1;
-   height: 45vh;
-   width: 100%;
-   margin-top: 30px;
-   padding-top: 20px;
+ #style {
+    width: 200px;
+    height: 200px;
+    margin-left: 110px;
+ }
 
-} 
-#sd{
- font-size: 30px;  
-  font-weight: bold;
-  border-left:7px solid#78962b ;
-  padding: 5px; 
-  margin-left: 30px;
-}
-#ad{
-   margin-left: 30px;
-}
-#as{
-   margin-left: 30px;  
-}
-#af{
-   font-weight: bold;
-}
-.info{
-   background-color: #78962b;
-   width: 150px;
-   height: 40px;
-   color: white;
-   margin-left: 25px;
-   border-style: none;
-}
-#snap{
-   display: flex;
-   margin-top: 40px;
+ #style:hover {
+    background-image: url(../img/Samba-247x300.jpg);
+ }
 
-}
-#fun{
-   width: 250px;
-   height: 250px;
-}
-#nap{
-   margin-left: 100px;
-   text-align: center;
-}
-#DA{
-   font-weight: bold;
-   color: #545454;
-}
+ #type {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+ }
 
-#pet{
-   margin-left: 20px;
-   text-align: center;
-}
-#free{
-   width: 250px;
-   height: 250px; 
-}
-#get{
-   font-weight: bold;
-   color: #545454;
-}
-#make{
-   height: 70vh;
-   background-color: #ddd;
-   
+ #belt {
+    height: 10vh;
+    background-color: black;
+ }
 
-}
-#we{font-weight: bold;
-   color: #545454;
-   font-size: 30px;border-left:7px solid#78962b ;
-   padding: 5px; 
-}
-#done{
-   background-color:#1e1e1e;
-   width: 100%;
-   height:18vh;}
-   #cas{
-color: white;
-font-size: 13px;
-margin-left: 95px;
-border-bottom:1px solid#545454;
-   }
-   #left{
-      float: right;
-      margin-left :700px ; 
-   }
-   #ba{
-      display: flex;
-   }
-   #mi{
-      color:#545454;
-      font-size: 15px;
-      margin-left: 100px;
-      
-   }
-   #but{
-      width: 100%;
-      height: 70vh; background-color:white;
-   }
-   #cs{
-      color: #545454;
-      font-weight: bold;
-   
-   }
-#ss{
-   margin-top: 50px;
+ #page {
+    font-weight: bold;
+    color: white;
+ }
+
+ #ds {
+    background-color: #f1f1f1;
+    height: 45vh;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 20px;
+
+ }
+
+ #sd {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 7px solid#78962b;
+    padding: 5px;
+    margin-left: 30px;
+ }
+
+ #ad {
+    margin-left: 30px;
+ }
+
+ #as {
+    margin-left: 30px;
+ }
+
+ #af {
+    font-weight: bold;
+ }
+
+ .info {
+    background-color: #78962b;
+    width: 150px;
+    height: 40px;
+    color: white;
+    margin-left: 25px;
+    border-style: none;
+ }
+
+ #snap {
+    display: flex;
+    margin-top: 40px;
+
+ }
+
+ #fun {
+    width: 250px;
+    height: 250px;
+ }
+
+ #nap {
+    margin-left: 100px;
+    text-align: center;
+ }
+
+ #DA {
+    font-weight: bold;
+    color: #545454;
+ }
+
+ #pet {
+    margin-left: 20px;
+    text-align: center;
+ }
+
+ #free {
+    width: 250px;
+    height: 250px;
+ }
+
+ #get {
+    font-weight: bold;
+    color: #545454;
+ }
+
+ #make {
+    height: 70vh;
+    background-color: #ddd;
+
+
+ }
+
+ #we {
+    font-weight: bold;
+    color: #545454;
+    font-size: 30px;
+    border-left: 7px solid#78962b;
+    padding: 5px;
+ }
+
+ #done {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 18vh;
+ }
+
+ #cas {
+    color: white;
+    font-size: 13px;
+    margin-left: 95px;
+    border-bottom: 1px solid#545454;
+ }
+
+ #left {
+    float: right;
+    margin-left: 700px;
+ }
+
+ #ba {
+    display: flex;
+ }
+
+ #mi {
+    color: #545454;
+    font-size: 15px;
+    margin-left: 100px;
+
+ }
+
+ #but {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+ }
+
+ #cs {
+    color: #545454;
+    font-weight: bold;
+
+ }
+
+ #ss {
+    margin-top: 50px;
+    color: #1e1e1e;
+    font-weight: bold;
+    border-bottom: 1px solid#545454;
+    margin-right: 40px;
+ }
+
+ #vu {
+    margin-right: 100px
+ }
+
+ #in {
+    margin-left: 20px;
+ }
+ #pmaa{
+   font-size: 20px;
    color: #1e1e1e;
    font-weight: bold;
-   border-bottom:1px solid#545454;
-   margin-right: 40px;
-}
-#vu{
-   margin-right: 100px
-}
-
-
-
-
-
-
-
-
-
+ }
+ #wdyh{
+   width: 800px;
+ }
+ #cas{
+   display: flex;
+ }
